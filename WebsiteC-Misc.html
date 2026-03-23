@@ -55,70 +55,85 @@
   </nav>
 
   <!-- Main Page Content -->
-  <div class="flex-grow-1 p-4">
+  <div class="flex-grow-1 p-4 bg-secondary ps-5" style="overflow:visible;">
 
     <body>
+
+      <style>
+        /* Hover zoom effect */
+        img:not(.no-zoom) {
+          transition: transform 0.3s ease;
+          position: relative;
+        }
+
+        img:not(.no-zoom):hover {
+          transform: scale(2);
+          z-index: 9999;
+        }
+      </style>
+
+
       <p>Things I've done for miscellania</p>
-      <img src="Port/FlagKey.png"> <br>
+      <img src="Port/FlagKey.png" class="no-zoom"  style="margin-left:-20px"> <br>
 
       <h1>Commissions and Gifts</h1>
       <h2>What I do for Killin:</h2>
-      <img src="Port/MothColors.png" style="width:40%;"> <br>
-      <img src="Port/SaturnSkull.jpg" style="width:30%;"> <br>
-      <h2>Projects to the cause</h2>
-      <img src="Port/TSdnd.png" style="width:50%;"> <br>
-      <img src="Port/TS_banner.png" style="width:50%;"> <br>
+      <img src="Port/MothColors.png" class="my-2" style="width:30%; margin-left:30px"> <br>
+      <img src="Port/SaturnSkull.jpg" class="my-2" style="width:20%;  margin-left:120px"> <br>
 
-      <br>
+      <h2>Projects to the cause</h2>
+      <img src="Port/TSdnd.png" class="no-zoom my-3" style="width:50%;"> <br>
+      <img src="Port/TS_banner.png" class="no-zoom my-3" style="width:50%;">
 
 
       <h1>Works of Olde</h1>
       <p>Self Portraits; Coveting of the Skull / Spitting Plastic Knives</p>
-      <img src="Port/EdSkull.jpg" style="width:30%;">
-      <img src="Port/EdKnife.jpg" style="width:32%;">
+      <img src="Port/EdSkull.jpg" class="my-5" style="width:20%; margin-left:100px">
+      <img src="Port/EdKnife.jpg" class="ms-5" style="width:22%;">
       <br>
 
       <p>Typographic Experimentations</p>
-      <img src="Port/ProEdit.jpg" style="width:17%;"> <br>
-      <img src="Port/RTALL.jpg" style="width:17%;"> <br>
-      <img src="Port/Marlboro.jpg" style="width:17%;"> <br>
+      <img src="Port/ProEdit.jpg" class="my-2" style="width:17%; margin-left:50px"> <br>
+      <img src="Port/RTALL.jpg" class="my-2" style="width:17%; margin-left:100px"> <br>
+      <img src="Port/Marlboro.jpg" class="my-2" style="width:17%;  margin-left:150px;"> <br>
 
       <p>All Children Are Nihilists</p>
-      <img src="Port/AllChildrenAreNihilists.png"> <br>
+      <img src="Port/AllChildrenAreNihilists.png" class="no-zoom" style="width:40%;"> <br>
 
       <p>Egg.</p>
-      <img src="Port/Egg.jpg" style="width:40%;"> <br>
-
-      <p>Just an Acrylic Banana Paint</p>
-      <img src="Port/Banana.jpg" style="width:20%;">
+      <img src="Port/Egg.jpg" style="width:30%;  margin-left:75px;"> <br>
 
       <p>Background Practices</p>
 
-      <img src="Port/TreeNight.jpg" style="width:27%;"> <br>
-      <img src="Port/TreeHill.jpg" style="width:40%;"> <br>
-      <img src="Port/TreeSwamp.jpg" style="width:35%;"> <br>
+      <img src="Port/TreeNight.jpg" class="my-2" style="width:17%;   margin-left:50px;"> <br>
+      <img src="Port/TreeHill.jpg" class="my-2" style="width:24%;  margin-left:75px;"> <br>
+      <img src="Port/TreeSwamp.jpg" class="my-2" style="width:30%;  margin-left:125px;"> <br>
 
       <p>A design on Water Conservation; Unfinished</p>
-      <img src="Port/UNPoster.png">
+      <img src="Port/UNPoster.png" style="width:20%;   margin-left:75px;">>
 
       <h1>Sketches and Then on</h1>
       <p>Just for Goofs and Gafs</p>
 
-      <img src="Port/FishJenga.png" style="width:25%;">
+      <img src="Port/FishJenga.png" style="width:25%;   margin-left:100px;">
       <img src="Port/Goat.png" style="width:7%;">
       <img src="Port/ArcVHorror.png" style="width:27.16%;">
       <img src="Port/Antin&Lelg.png" style="width:10%;">
       <br>
-      <img src="Port/Nage.png" style="width:15%;">
-      <img src="Port/GM0.png" style="width:10%;">
-      <img src="Port/Funi.png" style="width:15%;">
+      <img src="Port/GM0.png" style="width:10%;   margin-left:100px;">
+      <img src="Port/Funi.png" class="my-5" style="width:15%;">
       <img src="Port/Levon.jpg" style="width:25%;">
       <img src="Port/Kitty.png" style="width:20%;">
-      <img src="Port/HairColors.jpg" style="width:60%;">
       <br>
-      <img src="Port/Pokewater.png" style="width:20%;">
-      <img src="Port/PokeWood.png" style="width:30%;">
+
+      <img src="Port/HairColors.jpg" style="width:40%; display:block; margin-left:300px;">
+      <br>
+
+      <img src="Port/Pokewater.png" style="width:20%;  margin-left:100px;">
+      <img src="Port/PokeWood.png" class="my-5" style="width:24%;">
       <img src="Port/PokePyre.png" style="width:25%;">
       <br>
-      <img src="Port/GirlAI.png" style="width:40%;"> <br>
-      <img src="Port/TheCreek.jpg" style="width:100%;">
+      <img src="Port/GirlAI.png" style="width:40%; display:block; margin-left:200px;">
+      <br>
+
+      <img src="Port/TheCreek.jpg" class="no-zoom" class="my-4" style="width:100%;">
