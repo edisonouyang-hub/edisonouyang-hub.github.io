@@ -131,7 +131,7 @@ function levelThree(){
 
   checkBombs();
 
-  if(dist(ballx, bally, mouseX, mouseY) < ballSize/2){
+  if(dist(ballx, bally, mouseX, mouseY) < ballSize){
     ballx = random(width);
     bally = random(height);
     ballSize--;
@@ -153,7 +153,7 @@ function levelFour(){
 
   checkBombs();
 
-  if(dist(ballx, bally, mouseX, mouseY) < ballSize/1.75){
+  if(dist(ballx, bally, mouseX, mouseY) < ballSize){
     ballx = random(width);
     bally = random(height);
     ballSize--;
